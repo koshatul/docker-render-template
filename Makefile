@@ -1,4 +1,4 @@
-DOCKER_REPO := docker-render-template
+DOCKER_REPO := koshatul/docker-render-template
 DOCKER_REQ := init.py
 
 -include artifacts/make/docker/Makefile

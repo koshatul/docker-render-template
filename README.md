@@ -13,7 +13,7 @@ test = {{ TEST_MESSAGE }}
 
 Command:
 ```
-cat test.template | docker run -i --env "TEST_MESSAGE=testing" --rm docker-render-template > test.render
+cat test.template | docker run -i --env "TEST_MESSAGE=testing" --rm koshatul/docker-render-template > test.render
 ```
 
 Result:
